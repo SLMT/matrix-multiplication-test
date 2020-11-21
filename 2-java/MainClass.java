@@ -1,7 +1,7 @@
 import java.util.Random;
 
 public class MainClass {
-  private static final int n = 1024;
+  private static final int n = 4096;
 
   private static double[][] A = new double[n][n];
   private static double[][] B = new double[n][n];
