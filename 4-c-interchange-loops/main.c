@@ -26,6 +26,7 @@ int main(int argc, const char *argv[]) {
   struct timeval start_time, end_time;
   gettimeofday(&start_time, NULL);
 
+  // Optimization: change loop order (j and k)
   for (int i = 0; i < n; i++) {
     for (int k = 0; k < n; k++) {
       for (int j = 0; j < n; j++) {
