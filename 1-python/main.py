@@ -1,7 +1,7 @@
 import sys, random
 from time import *
 
-n = 4096
+n = 1024
 
 # Generate matrices
 A = [[random.random() for row in range(n)] for col in range(n)]

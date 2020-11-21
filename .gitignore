@@ -1,3 +1,4 @@
 *.class
+
+# For Windows
 *.exe
-3-c/main
